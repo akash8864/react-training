@@ -1,7 +1,25 @@
 // import Hello from './components/hello'
 import './App.css';
+import PostForm from './requests/PostForm';
+// import ComponentC from './ComponentC';
+import PostList from './requests/PostList';
+// import { UserProvider } from './UserContext';
+// import ClickCounterTwo from './ClickCounterTwo';
+// import Counter from './Counter';
+// import OnMouseHoverTwo from './OnMouseHoverTwo';
+// import User from './User';
+// import ClickCounter from './ClickCounter';
+// import OnMouseOver from './OnMouseOver';
+// import ErrorBoundary from './ErrorBoundary';
+// import Hero from './Hero';
+// import FRParentInput from './FRParentInput';
+// import FocusInput from './FocusInput';
+// import ParentComponent from './ParentComponent';
+// import RefsDemo from './RefsDemo';
+// import PureComp from './PureComp';
+
 // import Form from './components/Form';
-import LifeCycleA from './LifeCycleA';
+// import LifeCycleA from './LifeCycleA';
 // import Inline from './components/Inline'
 // import Stylesheet from './components/Stylesheet';
 // import './components/appStyles.css'
@@ -12,14 +30,35 @@ import LifeCycleA from './LifeCycleA';
 // import EventBind from './components/EventBind';
 // import FunctionClick from './components/FunctionClick';
 // import Counter from './components/counter';
-//import {Greet} from "./components/a"
+// import {Greet} from "./components/a"
 // import Message from "./components/Message"
 // import Welcome from "./components/Welcome"
 function App() {
   return (
     <div className="App">
+      <PostList></PostList>
+      <PostForm></PostForm>
+      {/* <UserProvider value="akash">
+      <ComponentC/>
+      </UserProvider> */}
+      
+      {/* <Counter>{(count,handler)=>(<ClickCounterTwo count={count} handler={handler}></ClickCounterTwo>)}</Counter>
+      <Counter >{(count,handler)=>(<OnMouseHoverTwo count={count} handler={handler}></OnMouseHoverTwo>)}</Counter> */}
+      {/* <ClickCounterTwo ></ClickCounterTwo>
+      <OnMouseHoverTwo></OnMouseHoverTwo> */}
+      {/* <User name={(isLoggeIn)=>isLoggeIn?'akash':'akash yadav'}></User> */}
+      {/* <ClickCounter></ClickCounter> */}
+      {/* <OnMouseOver></OnMouseOver> */}
+      {/* <ErrorBoundary><Hero heroname="batman"></Hero></ErrorBoundary>
+      <ErrorBoundary><Hero heroname="superman"></Hero></ErrorBoundary>
+      <ErrorBoundary>   <Hero heroname='joker'></Hero></ErrorBoundary> */}
+      
+      {/* <FRParentInput></FRParentInput> */}
+      {/* <FocusInput></FocusInput> */}
+     {/* <ParentComponent></ParentComponent> */}
+     {/* <RefsDemo></RefsDemo> */}
       {/* <Form /> */}
-      <LifeCycleA></LifeCycleA>
+      {/* <LifeCycleA></LifeCycleA> */}
       {/* <h1 className="error">Error</h1> */}
       {/* <h1 className={style.success}>Success</h1> */}
       {/* <Stylesheet primary={true}/> */}
@@ -29,7 +68,7 @@ function App() {
     {/* <EventBind></EventBind> */}
       {/* <ClassClick/> */}
       {/* <FunctionClick/>       */}
-      {/* <Greet name="akash" >
+       {/* <Greet name="akash" >
         <p>my name is jarvis</p>
       </Greet>
       <Greet name="anuj" />
@@ -37,8 +76,8 @@ function App() {
       <Counter/> 
        <Message/>
        <Hello />
-      <Welcome/> */}
-     
+      <Welcome/>
+      */}
     </div>
   );
 }
