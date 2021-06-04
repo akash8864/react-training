@@ -1,8 +1,12 @@
 // import Hello from './components/hello'
 import './App.css';
-import PostForm from './requests/PostForm';
+import { ClickCounter3 } from './ClickCounter3';
+// import ClickCounter1 from './ClickCounter1';
+// import ClickCounter2 from './ClickCounter2';
+// import ClickCounterUsingUsestate from './ClickCounterUsingUsestate';
+// import PostForm from './requests/PostForm';
 // import ComponentC from './ComponentC';
-import PostList from './requests/PostList';
+// import PostList from './requests/PostList';
 // import { UserProvider } from './UserContext';
 // import ClickCounterTwo from './ClickCounterTwo';
 // import Counter from './Counter';
@@ -35,10 +39,16 @@ import PostList from './requests/PostList';
 // import Welcome from "./components/Welcome"
 function App() {
   return (
-    <div className="App">
-      <PostList></PostList>
-      <PostForm></PostForm>
-      {/* <UserProvider value="akash">
+    <div  className="App">
+       <ClickCounter3></ClickCounter3>
+      {/* <ClickCounter1 ></ClickCounter1>
+      <br></br>
+      <ClickCounterUsingUsestate></ClickCounterUsingUsestate>
+      <br></br>
+      <ClickCounter2></ClickCounter2> */}
+      {/* <PostList></PostList>
+      <PostForm></PostForm> */}
+      {/* <UserProvider value="akash"> 
       <ComponentC/>
       </UserProvider> */}
       

@@ -10,5 +10,4 @@ import ComponentE from './ComponentE'
         )
     }
 }
-
 export default ComponentC
