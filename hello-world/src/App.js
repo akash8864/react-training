@@ -1,6 +1,10 @@
 // import Hello from './components/hello'
 import './App.css';
-import { ClickCounter3 } from './ClickCounter3';
+// import WithoutUseEffect from './WithoutUseEffect';
+import { WithUseEffect } from './WithUseEffect';
+// import { HookCounter4 } from './HookCounter4';
+// import { UseStateWithObject } from './UseStateWithObject';
+// import { ClickCounter3 } from './ClickCounter3';
 // import ClickCounter1 from './ClickCounter1';
 // import ClickCounter2 from './ClickCounter2';
 // import ClickCounterUsingUsestate from './ClickCounterUsingUsestate';
@@ -40,7 +44,11 @@ import { ClickCounter3 } from './ClickCounter3';
 function App() {
   return (
     <div  className="App">
-       <ClickCounter3></ClickCounter3>
+      {/* <WithoutUseEffect></WithoutUseEffect> */}
+      <WithUseEffect></WithUseEffect>
+      {/* <HookCounter4></HookCounter4> */}
+      {/* <UseStateWithObject></UseStateWithObject> */}
+       {/* <ClickCounter3></ClickCounter3> */}
       {/* <ClickCounter1 ></ClickCounter1>
       <br></br>
       <ClickCounterUsingUsestate></ClickCounterUsingUsestate>
