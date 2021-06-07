@@ -1,7 +1,13 @@
 // import Hello from './components/hello'
 import './App.css';
+import { FethDataUseEffect } from './FethDataUseEffect';
+// import IntervalClassCounter from './IntervalClassCounter';
+// import IntervalHookCounter from './IntervalHookCounter';
+// import HookMouse from './HookMouse';
+// import MouseContainer from './MouseContainer';
+// import ClassMouse from './ClassMouse';
 // import WithoutUseEffect from './WithoutUseEffect';
-import { WithUseEffect } from './WithUseEffect';
+// import { WithUseEffect } from './WithUseEffect';
 // import { HookCounter4 } from './HookCounter4';
 // import { UseStateWithObject } from './UseStateWithObject';
 // import { ClickCounter3 } from './ClickCounter3';
@@ -44,8 +50,14 @@ import { WithUseEffect } from './WithUseEffect';
 function App() {
   return (
     <div  className="App">
+      <FethDataUseEffect></FethDataUseEffect>
+      {/* <IntervalClassCounter></IntervalClassCounter>
+      <IntervalHookCounter></IntervalHookCounter> */}
+      {/* <MouseContainer></MouseContainer> */}
+      {/* <HookMouse></HookMouse> */}
+      {/* <ClassMouse></ClassMouse> */}
       {/* <WithoutUseEffect></WithoutUseEffect> */}
-      <WithUseEffect></WithUseEffect>
+      {/* <WithUseEffect></WithUseEffect> */}
       {/* <HookCounter4></HookCounter4> */}
       {/* <UseStateWithObject></UseStateWithObject> */}
        {/* <ClickCounter3></ClickCounter3> */}
