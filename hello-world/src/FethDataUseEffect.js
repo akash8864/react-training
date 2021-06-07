@@ -19,7 +19,8 @@ export const FethDataUseEffect = () => {
         <div>
             <input type="text" value={id} onChange={e=>setid(e.target.value)}></input>
             <button onClick={handler}>Submit</button>
-            {states.title}
+            
+            <h5>{states.title}</h5>
             {/* {   states.map((state)=>(<h1 key={state.id}>{state.title}</h1>))} */}
         </div>
     )
